@@ -25,3 +25,63 @@ body{
     color: white;
     text-shadow:1px 1px 1px black ;
 }
+#blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-self: center;
+    margin-top: 100px;
+}
+#blog h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 200%;
+    font-size: 300;
+}
+#blog div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: calc(20% - 15px);
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    width: calc(40% - 20px);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+    border: none;
+    position: relative;
+    overflow: hidden;
+}
+#blog div:nth-of-type(3){
+    background-color: black;
+    color: white;
+}
+#blog div {
+    flex: 1;
+    padding: 20px;
+}
+#blog img{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+#blog div p{
+    margin-bottom: 10px;
+    font-size: small;
+    text-align: center; 
+
+}
+  #blog div a {
+    text-align: left;
+    color: lightgrey;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: small;  
+   
+  }
+#blog div a:hover{
+    color: blue;
+}
